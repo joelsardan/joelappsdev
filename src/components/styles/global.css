@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  body {
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  color: #2e3a59;
+  line-height: 1.6;
+}
+
+}
+
+
+.header {
+  background-color: #0aa91d;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+}
+
+
+.profile-picture {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  gap: 30px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.profile-picture img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: 6px solid #004d40;
+  object-fit: cover;
+}
+
+.profile-text {
+  flex: 1;
+  text-align: left;
+}
+
+.profile-text h2 {
+  font-size: 2.4rem;
+  color: #004d40;
+  margin-bottom: 12px;
+}
+
+.profile-text p {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.about-page {
+  background-color: #ffffff;
+  padding: 3rem;
+  margin: 2rem auto;
+  max-width: 950px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
+}
+
+.about-page h2 {
+  font-size: 2.2rem;
+  color: #00796b;
+  margin-bottom: 1.2rem;
+}
+
+.skills-page {
+  background-color: #ffffff;
+  padding: 3rem;
+  margin: 2rem auto;
+  max-width: 950px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.05);
+}
+
+.skills-page h2 {
+  font-size: 2.2rem;
+  color: #00796b;
+  margin-bottom: 1.2rem;
+}
+
+.soft-skills p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.9;
+}
+
+
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #00897b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 137, 123, 0.4);
+}
+
+button:hover {
+  background-color: #00695c;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 105, 92, 0.5);
+}
+
+footer {
+  background-color: #10ad5c;
+  color: white;
+  padding: 1.8rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 4rem;
+  border-top: 4px solid #00251a;
+}
